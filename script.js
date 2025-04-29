@@ -20,7 +20,7 @@ function next() {
 		setTimeout(() => {
 			element2.innerHTML = `<button onClick="next()">Next</button>
 			`
-		}, 2000);
+		}, 5000);
 	} else if(part == 2) {
 		element2.innerHTML = '';
 		element.innerHTML = `<h1 class="title">Thanks, Petanikode.</h1>
@@ -36,7 +36,7 @@ function next() {
 			element2.innerHTML = `<button onClick="next()">Next</button>
 			 <button onClick="previous()">Previous</button>
 			 `
-		}, 2000);
+		}, 5000);
 	} else if(part == 3) {
 		element2.innerHTML = '';
 		element.innerHTML = `<h1 class="title">Visit Me</h1>
