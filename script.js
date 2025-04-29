@@ -40,7 +40,7 @@ function next() {
 	} else if(part == 3) {
 		element2.innerHTML = '';
 		element.innerHTML = `<h1 class="title">Visit Me</h1>
-		<h3 class="stitle">On <a href="https://github.com/">Github</h3>
+		<h3 class="stitle">On <a href="https://github.com/theJuniorProgrammer3/">Github</h3>
 		`
 		setTimeout(() => {
 			element2.innerHTML = `<button onClick="previous()">Previous</button>
